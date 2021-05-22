@@ -1,38 +1,77 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: hsl(185, 75%, 39%);
+  font-size: 18px;
+  font-family: 'Kumbh Sans';
+  /*color: hsl(0, 11%, 12%);*/
+}
+
+.card{
+  max-width: 400px;
+  min-width: 350px;
+  margin: 40px auto;
+  padding: 80px;
+  background: white;
   text-align: center;
+  /*position: relative;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profileImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn,.btn-like {
+  border: none;
+  padding: 10px;
+  border-radius: 10%;
+  background: gray;
+  color: black;
+  margin: 10px;
+}
+
+.content {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.btn-like {
+  background: none;
+  margin: 2px;
+}
+
+.btn-like > .fas {
+  color:red;
+}
+
+.social-link {
+  margin: 10px auto;
+}
+
+.social-link a {
+  color: blue;
+  text-decoration: none;
+  width: 44px;
+  height: 44px;
+}
+
+/* Tablet View */
+@media only screen and (min-width: 600px) {
+  .btn {
+    background: red;
+    color: #fff;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Desktop View */
+@media only screen and (min-width: 768px) {
+  .social-link a {
+    color: #000;
   }
 }
