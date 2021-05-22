@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/profreactapp/static/css/main.cef41437.chunk.css",
+    "main.js": "/profreactapp/static/js/main.a0a5b53c.chunk.js",
+    "main.js.map": "/profreactapp/static/js/main.a0a5b53c.chunk.js.map",
+    "runtime-main.js": "/profreactapp/static/js/runtime-main.49b1b0ae.js",
+    "runtime-main.js.map": "/profreactapp/static/js/runtime-main.49b1b0ae.js.map",
+    "static/js/2.51e6fd4d.chunk.js": "/profreactapp/static/js/2.51e6fd4d.chunk.js",
+    "static/js/2.51e6fd4d.chunk.js.map": "/profreactapp/static/js/2.51e6fd4d.chunk.js.map",
+    "static/js/3.c03570e9.chunk.js": "/profreactapp/static/js/3.c03570e9.chunk.js",
+    "static/js/3.c03570e9.chunk.js.map": "/profreactapp/static/js/3.c03570e9.chunk.js.map",
+    "index.html": "/profreactapp/index.html",
+    "static/css/main.cef41437.chunk.css.map": "/profreactapp/static/css/main.cef41437.chunk.css.map",
+    "static/js/2.51e6fd4d.chunk.js.LICENSE.txt": "/profreactapp/static/js/2.51e6fd4d.chunk.js.LICENSE.txt",
+    "static/media/me.4c513918.jpg": "/profreactapp/static/media/me.4c513918.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49b1b0ae.js",
+    "static/js/2.51e6fd4d.chunk.js",
+    "static/css/main.cef41437.chunk.css",
+    "static/js/main.a0a5b53c.chunk.js"
+  ]
+}
